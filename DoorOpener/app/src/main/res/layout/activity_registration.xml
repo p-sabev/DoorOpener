@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ECF0F1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="30sp"
+        android:textColor="#333333"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+            <android.support.design.widget.TextInputLayout
+            android:id="@+id/emailWrapperpper"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/email"
+            style="@style/Margins"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/usernameWrapperpper"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/username"
+                style="@style/Margins"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Username"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/passwordrapperpper"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/pass1"
+            style="@style/Margins"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/passwordWrapper2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/pass2"
+                style="@style/Margins"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Rewrite  your password"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+                android:id="@+id/btnsignup"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                style="@style/Margins"
+                android:text="Sign up"
+                />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

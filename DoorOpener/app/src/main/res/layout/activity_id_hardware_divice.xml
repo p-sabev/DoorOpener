@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ECF0F1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LogOn"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#333333"
+            android:text="Hesh"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+
+            />
+
+        </RelativeLayout>
+    </LinearLayout>
