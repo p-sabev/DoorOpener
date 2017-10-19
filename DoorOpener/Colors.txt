@@ -1,0 +1,6 @@
+Blue        - #83D2E1
+Darker blue - #51C5DA
+Grey        - #EFF5F6
+Red         - #F05578
+White       - #FFFFFF
+Black       - #000000
